@@ -30,8 +30,6 @@ A UV Index reading of 0 to 2 means low danger from the sun's UV rays for the ave
 #### Wear sunglasses on bright days.
 If you burn easily, cover up and use broad spectrum SPF 30+ sunscreen.
 Watch out for bright surfaces, like sand, water and snow, which reflect UV and increase exposure.
-3 to 5: Moderate
-UV Index Moderate - Yellow
 
 #### A UV Index reading of 3 to 5 means moderate risk of harm from unprotected sun exposure.
 
@@ -39,28 +37,30 @@ Stay in shade near midday when the sun is strongest.
 If outdoors, wear protective clothing, a wide-brimmed hat, and UV-blocking sunglasses.
 Generously apply broad spectrum SPF 30+ sunscreen every 2 hours, even on cloudy days, and after swimming or sweating. 
 Watch out for bright surfaces, like sand, water and snow, which reflect UV and increase exposure.
-6 to 7: High
-UV Index High - Orange
+
+3 to 5: Moderate = UV Index Moderate - Yellow
 
 #### A UV Index reading of 6 to 7 means high risk of harm from unprotected sun exposure. Protection against skin and eye damage is needed.
+
+6 to 7: High UV Index High - Orange
 
 Reduce time in the sun between 10 a.m. and 4 p.m.
 If outdoors, seek shade and wear protective clothing, a wide-brimmed hat, and UV-blocking sunglasses.
 Generously apply broad spectrum SPF 30+ sunscreen every 2 hours, even on cloudy days, and after swimming or sweating. 
 Watch out for bright surfaces, like sand, water and snow, which reflect UV and increase exposure.
-8 to 10: Very High
-UV Index Very High - Red
 
 #### A UV Index reading of 8 to 10 means very high risk of harm from unprotected sun exposure. Take extra precautions because unprotected skin and eyes will be damaged and can burn quickly.
+
+8 to 10: Very High UV Index Very High - Red
 
 Minimize sun exposure between 10 a.m. and 4 p.m.
 If outdoors, seek shade and wear protective clothing, a wide-brimmed hat, and UV-blocking sunglasses.
 Generously apply broad spectrum SPF 30+ sunscreen every 2 hours, even on cloudy days, and after swimming or sweating. 
 Watch out for bright surfaces, like sand, water and snow, which reflect UV and increase exposure.
-11 or more: Extreme
-UV Index Extreme - Purple
 
 #### A UV Index reading of 11 or more means extreme risk of harm from unprotected sun exposure. Take all precautions because unprotected skin and eyes can burn in minutes. 
+
+11 or more: Extreme UV Index Extreme - Purple
 
 Try to avoid sun exposure between 10 a.m. and 4 p.m.
 
