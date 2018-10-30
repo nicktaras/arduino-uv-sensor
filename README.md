@@ -22,18 +22,18 @@ Sensor module used:
 7. Detect UV wavelength:  200-370nm
 8. Size: 19.80*15mm
 
-## UV information from EPA.gov:
+### UV information from EPA.gov:
 
-### UV Index Low - Green
+#### UV Index Low - Green
 A UV Index reading of 0 to 2 means low danger from the sun's UV rays for the average person.
  
-### Wear sunglasses on bright days.
+#### Wear sunglasses on bright days.
 If you burn easily, cover up and use broad spectrum SPF 30+ sunscreen.
 Watch out for bright surfaces, like sand, water and snow, which reflect UV and increase exposure.
 3 to 5: Moderate
 UV Index Moderate - Yellow
 
-### A UV Index reading of 3 to 5 means moderate risk of harm from unprotected sun exposure.
+#### A UV Index reading of 3 to 5 means moderate risk of harm from unprotected sun exposure.
 
 Stay in shade near midday when the sun is strongest.
 If outdoors, wear protective clothing, a wide-brimmed hat, and UV-blocking sunglasses.
@@ -42,7 +42,7 @@ Watch out for bright surfaces, like sand, water and snow, which reflect UV and i
 6 to 7: High
 UV Index High - Orange
 
-###  A UV Index reading of 6 to 7 means high risk of harm from unprotected sun exposure. Protection against skin and eye damage is needed.
+#### A UV Index reading of 6 to 7 means high risk of harm from unprotected sun exposure. Protection against skin and eye damage is needed.
 
 Reduce time in the sun between 10 a.m. and 4 p.m.
 If outdoors, seek shade and wear protective clothing, a wide-brimmed hat, and UV-blocking sunglasses.
@@ -51,7 +51,7 @@ Watch out for bright surfaces, like sand, water and snow, which reflect UV and i
 8 to 10: Very High
 UV Index Very High - Red
 
-### A UV Index reading of 8 to 10 means very high risk of harm from unprotected sun exposure. Take extra precautions because unprotected skin and eyes will be damaged and can burn quickly.
+#### A UV Index reading of 8 to 10 means very high risk of harm from unprotected sun exposure. Take extra precautions because unprotected skin and eyes will be damaged and can burn quickly.
 
 Minimize sun exposure between 10 a.m. and 4 p.m.
 If outdoors, seek shade and wear protective clothing, a wide-brimmed hat, and UV-blocking sunglasses.
@@ -60,7 +60,7 @@ Watch out for bright surfaces, like sand, water and snow, which reflect UV and i
 11 or more: Extreme
 UV Index Extreme - Purple
 
-###  A UV Index reading of 11 or more means extreme risk of harm from unprotected sun exposure. Take all precautions because unprotected skin and eyes can burn in minutes. 
+#### A UV Index reading of 11 or more means extreme risk of harm from unprotected sun exposure. Take all precautions because unprotected skin and eyes can burn in minutes. 
 
 Try to avoid sun exposure between 10 a.m. and 4 p.m.
 
@@ -69,7 +69,7 @@ Generously apply broad spectrum SPF 30+ sunscreen every 2 hours, even on cloudy 
 Watch out for bright surfaces, like sand, water and snow, which reflect UV and increase exposure.
 The Shadow Rule
  
-### An easy way to tell how much UV exposure you are getting is to look for your shadow:
+#### An easy way to tell how much UV exposure you are getting is to look for your shadow:
 
 If your shadow is taller than you are (in the early morning and late afternoon), your UV exposure is likely to be lower.
 If your shadow is shorter than you are (around midday), you are being exposed to higher levels of UV radiation. Seek shade and protect your skin and eyes.
