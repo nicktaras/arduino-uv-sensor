@@ -110,6 +110,14 @@ launchctl unload ~/Library/LaunchAgents/homebrew.mxcl.redis.plist
 Test:
 redis-cli ping -->
 
+### Mongo:
+
+Running the database:
+
+- run the Mongo server with the command, mongod
+- ensure the server is running before serving the api
+- for debugging and checking values were store you can enter the mongo shell via the terminal by typing, mongo
+
 ### Express:
 
 Setup and running application:
