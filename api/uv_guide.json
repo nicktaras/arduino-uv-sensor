@@ -1,11 +1,11 @@
 {
 	"index": {
- 		"0": "green",
+		"0": "green",
 		"1": "green",
-	 	"2": "yellow",
- 		"3": "yellow",
- 		"4": "yellow",
- 		"5": "orange",
+		"2": "yellow",
+		"3": "yellow",
+		"4": "yellow",
+		"5": "orange",
 		"6": "orange",
 		"7": "orange",
 		"8": "red",
@@ -27,7 +27,7 @@
 				"grade": "Moderate",
 				"desc": "A UV Index reading of 3 to 5 means moderate risk of harm from unprotected sun exposure.",
 				"tips": [
-					"Stay in shade near midday when the sun is strongest. If outdoors, wear protective clothing, a wide-brimmed hat, and UV-blocking sunglasses. Generously apply broad spectrum SPF 30+ sunscreen every 2 hours, even on cloudy days, and after swimming or sweating. Watch out for bright surfaces, like sand, water and snow, which reflect UV and increase exposure.",
+					"Stay in shade near midday when the sun is strongest. If outdoors, wear protective clothing, a wide-brimmed hat, and UV-blocking sunglasses. Generously apply broad spectrum SPF 30+ sunscreen every 2 hours, even on cloudy days, and after swimming or sweating. Watch out for bright surfaces, like sand, water and snow, which reflect UV and increase exposure."
 				]
 			},
 			"orange": {
@@ -55,14 +55,3 @@
 		}
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
