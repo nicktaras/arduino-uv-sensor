@@ -85,11 +85,11 @@ If your shadow is shorter than you are (around midday), you are being exposed to
 
 ### Tech Stack:
 
-The tech stack for this project is currently:
+The tech stack for this project:
 
 - Arduino
 - UV sensor
-- Node JS / Express / Possibly Graphql
+- Node JS / Express 
 - MongoDB
 
 <!-- - Redis DB -->
