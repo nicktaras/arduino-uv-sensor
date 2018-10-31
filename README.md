@@ -83,3 +83,39 @@ The Shadow Rule
 If your shadow is taller than you are (in the early morning and late afternoon), your UV exposure is likely to be lower.
 If your shadow is shorter than you are (around midday), you are being exposed to higher levels of UV radiation. Seek shade and protect your skin and eyes.
 
+### Tech Stack:
+
+The tech stack for this project is currently:
+
+- Arduino
+- UV sensor
+- Node JS / Express / Possibly Graphql
+- MongoDB
+
+<!-- - Redis DB -->
+
+<!-- ### Redis: -->
+
+<!-- Turn on:
+redis-server /usr/local/etc/redis.conf
+redis-server /etc/init.d/redis-server stop
+redis-server /etc/init.d/redis-server start
+
+launch on load:
+launchctl load ~/Library/LaunchAgents/homebrew.mxcl.redis.plist
+
+unload from launch:
+launchctl unload ~/Library/LaunchAgents/homebrew.mxcl.redis.plist
+
+Test:
+redis-cli ping -->
+
+### Express:
+
+Setup and running application:
+
+- cd into the api folder.
+- run yarn
+- start server with node index.js
+
+
