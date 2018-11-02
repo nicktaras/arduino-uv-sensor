@@ -87,10 +87,14 @@ If your shadow is shorter than you are (around midday), you are being exposed to
 
 The tech stack for this project:
 
-- Arduino
+- ESP8266 (Arduino open source software)
 - UV sensor
 - Node JS / Express 
 - MongoDB
+- Optionally power with solar energy 
+
+For inspiration printing your own solar power IOT box to contain the hardware see:
+https://www.thingiverse.com
 
 <!-- - Redis DB -->
 
