@@ -10,8 +10,12 @@ const uvGuide = JSON.parse(fs.readFileSync('uv_guide.json', 'utf8'));
 
 // Mongodb
 const MongoClient = require('mongodb').MongoClient;
-const db = client.db('weather');
-const collection = db.collection('uv');
+
+app.use(function(req, res, next) {
+  res.header("Access-Control-Allow-Origin", "*");
+  res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+  next();
+});
 
 // Util method
 const enrichUvData = (uvIndex) => {
@@ -33,6 +37,12 @@ const enrichUvData = (uvIndex) => {
   return uvData;
 }
 
+// For testing only.
+// Return Number
+const mockUvReading = () => {
+  return Math.floor((Math.random() * 11) + 1)
+};
+
 // Writes to db
 // implement security features to others cannot 
 // post to this end point.
@@ -40,17 +50,29 @@ const enrichUvData = (uvIndex) => {
 // - check data object is correct
 // - auth token / password
 app.post('/', (req, res) => {
+  // if (err) throw err; // TODO Handle errors.
+  console.log('post req recived.', req.query.reading);
   MongoClient.connect('mongodb://localhost:27017/weather', { useNewUrlParser: true }, function (err, client) {
     if (err) throw err
-    var db = client.db('weather');
-    // TODO implement request data.
-    const mockUvReading = Math.floor((Math.random() * 11) + 1); 
-    db.collection('uv').insertOne({
-      uvIndex: mockUvReading
-    }, function (err, result) {
-      if (err) throw err;
-      res.send(result);
-    });
+    if(req.query.reading) {
+      var db = client.db('weather');
+      
+      // For test purposes
+      // db.collection('uv').insertOne({
+      //   uvIndex: mockUvReading()
+      // }, function (err, result) {
+      //   if (err) throw err;
+      //   res.send(result);
+      // });
+      
+      // post value to database
+      db.collection('uv').insertOne({
+        uvIndex: req.query.reading
+      }, function (err, result) {
+        if (err) throw err;
+        res.send(result);
+      });
+    }
   });
 });
 
@@ -59,10 +81,12 @@ app.post('/', (req, res) => {
 // 'currrent'
 // 'range' && 'from' && 'to' (not MVP)
 app.get('/', (req, res) => {
+  console.log('get req recived.');
   if (req.query.type) {
     MongoClient.connect('mongodb://localhost:27017/weather', { useNewUrlParser: true }, function (err, client) {
       if (err) throw err; // TODO Handle errors.
-      var cursor = collection.find().limit(1).sort({ $natural : -1 });
+      const db = client.db('weather');
+      db.collection('uv').find().limit(1).sort({ $natural : -1 });
       cursor.toArray((err, results) => {
         if (err) throw err;
         uvDataEnriched = enrichUvData(results[0].uvIndex);
