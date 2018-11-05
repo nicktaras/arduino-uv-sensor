@@ -6,7 +6,13 @@ A sketch and schema to utilise the Arduino UV sensor in a project.
 This application currently writes the calculated UV level to serial. To enhance the usability of this project, this data must be stored and shared. 
 
 - This project will seek to provide the most efficient API for people to access this data online
-- As an extra part we will create a web page and arduino project examples of how to utlise this information
+- As an extra part we will create a web page example of how to utlise this information
+
+Parts complete:
+
+- Arduino (Done)
+- Api (Done)
+- Example webpage (incomplete)
 
 ### Setup:
 
