@@ -130,4 +130,36 @@ Setup and running application:
 - run yarn
 - start server with node index.js
 
+### Arduino + ESP8266:
+
+Installation of Arduino, see:
+https://www.jaycar.com.au/medias/sys_master/images/9126052364318/XC3800-manualMain.pdf
+
+- Once installed, select "ESP32 Dev Module" from Arduino/Tools/Board
+- Ensure the mongo sever and node api are running before.
+- Copy and paste script into editor
+- Compile
+- Readings should be posted to the node api
+
+### What's next
+
+To take this project further you may wish to consider the following:
+
+- Host the node api and database securely from your home server / or via a cloud service.
+- Send a primary key identifier to the server from where the data is being recieved (board_ID)
+- Set up multiple boards in many locations 
+- Update the api to query for location 
+- Built some awesome 3D printed boxes to allow for the boards to be placed outside (heat and storm proof)
+- Why not power the boards from solar with a fall back to battery power.
+
+
+
+
+
+
+
+
+
+
+
 
