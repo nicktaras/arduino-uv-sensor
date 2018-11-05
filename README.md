@@ -141,7 +141,7 @@ https://www.jaycar.com.au/medias/sys_master/images/9126052364318/XC3800-manualMa
 - Compile
 - Readings should be posted to the node api
 
-### What's next
+### What's next...
 
 To take this project further you may wish to consider the following:
 
