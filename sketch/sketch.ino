@@ -1,14 +1,16 @@
 #include <WiFi.h>
 #include <HTTPClient.h>
 
+#include "Credentials.h";
+
 // ERROR: "Brownout detector was triggered"
 // Try another usb cable.
 
 // Add your WIFI credentials below:
 // (The intention of this project is to run this program via your localhost, posting data to
 // the middleware node api)
-const char* ssid = "DODO-681A";
-const char* password = "LESTR7P5R6";
+const char* ssid = Credentials.h.ssid;
+const char* password = Credentials.h.password;
 
 WiFiServer server(80);
 
