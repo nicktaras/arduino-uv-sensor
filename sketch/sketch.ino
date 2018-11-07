@@ -6,16 +6,14 @@
 // ERROR: "Brownout detector was triggered"
 // Try another usb cable.
 
-// Add your WIFI credentials below:
-// (The intention of this project is to run this program via your localhost, posting data to
-// the middleware node api)
+// Add your credentials in the Constants.h
 const char* ssid = Constants::ssid;
 const char* password = Constants::password;
 
 WiFiServer server(80);
 
 // Local dev post url
- String apiPostUrl = "http://192.168.1.8:3000/";
+String apiPostUrl = "http://192.168.1.8:3000/";
 
 // Use Analogue Pin A0
 int ReadUVintensityPin = A0; 
